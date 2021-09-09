@@ -20,7 +20,7 @@ const getJSON = async function (url, errorMsg = 'Something went wrong') {
   });
 };
 
-// Add multiple meals to the DOM
+// Add multiple meals to the DOM 
 const displayMeals = function (mealDataArr) {
   const innerHTML = [];
   mealDataArr.forEach((mealData) => {
